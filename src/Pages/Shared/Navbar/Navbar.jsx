@@ -8,6 +8,7 @@ const Navbar = () => {
         <li><Link to="/allToys">All toys</Link></li>
         <li><Link to="/myToys">My toys</Link></li>
         <li><Link to="/addToys">Add a toy</Link></li>
+        
         <li><Link to="/blogs">Blogs</Link></li>
     </React.Fragment>
     return (
