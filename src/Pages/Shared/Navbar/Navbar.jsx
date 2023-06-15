@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../../providers/AuthProvider';
+import { FaCarAlt } from 'react-icons/fa';
 
 const Navbar = () => {
 
@@ -34,7 +35,7 @@ const Navbar = () => {
                             {menuItems}
                         </ul>
                     </div>
-                    <Link to="/" className="btn btn-ghost normal-case text-xl">Toy-Mart</Link>
+                    <Link to="/"><button className="text-white text-xl p-2 flex"><FaCarAlt></FaCarAlt>Toy-Mart</button></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
