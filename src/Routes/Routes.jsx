@@ -7,8 +7,9 @@ import Blogs from "../Pages/Blogs/Blogs";
 import Login from "../Pages/Login/Login";
 import Registration from "../Pages/Registration/Registration";
 import Category from "../Pages/Home/ToyCategory/Category";
-//import AddToys from "../Pages/AddToys/AddToys";
-//import Login from "../Pages/Login/Login";
+import AddToys from "../Pages/AddToys/AddToys";
+import MyToys from "../Pages/MyToys/MyToys";
+
 export const router = createBrowserRouter([
     {
       path: "/",
@@ -33,6 +34,14 @@ export const router = createBrowserRouter([
         {
             path: 'registration',
             element: <Registration></Registration>
+        },
+        {
+            path: 'addToys',
+            element: <AddToys></AddToys>
+        },
+        {
+            path: 'myToys',
+            element:<MyToys></MyToys> 
         },
       ]
     },

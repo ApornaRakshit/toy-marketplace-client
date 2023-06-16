@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AddToys = () => {
+const SingleToyDetails = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const AddToys = () => {
     );
 };
 
-export default AddToys;
+export default SingleToyDetails;
