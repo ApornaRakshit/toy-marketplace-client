@@ -5,7 +5,9 @@
         "image": "https://i.ibb.co/VTRVHd5/police4.jpg",
         "category": "policeToy",
         "rating":4,
-        "price": 2
+        "price": 2,
+        "description": "All order details will be taken directly from your payment provider, please ensure you select the correct addresses before submitting your order. From the payment provider, you will be directed to the order confirmation page. If you have a discount code, please choose ‘Checkout Securely'.",
+        "quantity": 10
     },
     {
         "_id": "6qeijid45648954addadc458dc",
@@ -13,7 +15,9 @@
         "image": "https://i.ibb.co/FqRfnkQ/sport2.jpg",
         "category": "sportsToy",
         "rating":5,
-        "price": 17
+        "price": 17,
+        "description": "All order details will be taken directly from your payment provider, please ensure you select the correct addresses before submitting your order. From the payment provider, you will be directed to the order confirmation page. If you have a discount code, please choose ‘Checkout Securely'.",
+        "quantity": 9
     },
     {
         "_id": "642c155b2c4774f05c36eea5",
@@ -21,7 +25,9 @@
         "image": "https://i.ibb.co/h8jt9JC/police2.jpg",
         "category": "policeToy",
         "rating":5,
-        "price": 19
+        "price": 19,
+        "description": "All order details will be taken directly from your payment provider, please ensure you select the correct addresses before submitting your order. From the payment provider, you will be directed to the order confirmation page. If you have a discount code, please choose ‘Checkout Securely'.",
+        "quantity": 10
     },
     {
         "_id": "642cqeqdad45a7hfswf727ee87",
@@ -29,7 +35,9 @@
         "image": "https://i.ibb.co/JHqztTv/sport3.jpg",
         "category": "sportsToy",
         "rating":4,
-        "price": 12
+        "price": 12,
+        "description": "All order details will be taken directly from your payment provider, please ensure you select the correct addresses before submitting your order. From the payment provider, you will be directed to the order confirmation page. If you have a discount code, please choose ‘Checkout Securely'.",
+        "quantity": 7
     },
     {
         "_id": "6qdqd7897x89azf05c36ee83",
@@ -37,7 +45,9 @@
         "image": "https://i.ibb.co/Dz6dLFn/sport4.jpg",
         "category": "policeToy",
         "rating":4,
-        "price": 13
+        "price": 13,
+        "description": "All order details will be taken directly from your payment provider, please ensure you select the correct addresses before submitting your order. From the payment provider, you will be directed to the order confirmation page. If you have a discount code, please choose ‘Checkout Securely'.",
+        "quantity": 10
     },
     {
         "_id": "64dfgdf444z98f05c36ee7f",
@@ -45,7 +55,9 @@
         "image": "https://i.ibb.co/VDwkRVM/track1.jpg",
         "category": "trackToy",
         "rating":5,
-        "price": 14
+        "price": 14,
+        "description": "All order details will be taken directly from your payment provider, please ensure you select the correct addresses before submitting your order. From the payment provider, you will be directed to the order confirmation page. If you have a discount code, please choose ‘Checkout Securely'.",
+        "quantity": 16
     },
     {
         "_id": "64sfabf8fs46f585c36eea8",
@@ -53,7 +65,9 @@
         "image": "https://i.ibb.co/x5nYGfZ/car1.jpg",
         "category": "carToy",
         "rating":3,
-        "price": 9
+        "price": 9,
+        "description": "All order details will be taken directly from your payment provider, please ensure you select the correct addresses before submitting your order. From the payment provider, you will be directed to the order confirmation page. If you have a discount code, please choose ‘Checkout Securely'.",
+        "quantity": 10
     },
     {
         "_id": "pjif45a5dacsafca546f458",
@@ -61,7 +75,9 @@
         "image": "https://i.ibb.co/vDTfMNV/track2.jpg",
         "category": "trackToy",
         "rating":5,
-        "price": 14
+        "price": 14,
+        "description": "All order details will be taken directly from your payment provider, please ensure you select the correct addresses before submitting your order. From the payment provider, you will be directed to the order confirmation page. If you have a discount code, please choose ‘Checkout Securely'.",
+        "quantity": 10
     },
     {
         "_id": "fhgsdfx789c46s57",
@@ -69,7 +85,9 @@
         "image": "https://i.ibb.co/Dz6dLFn/sport4.jpg",
         "category": "policeToy",
         "rating":5,
-        "price": 14
+        "price": 14,
+        "description": "All order details will be taken directly from your payment provider, please ensure you select the correct addresses before submitting your order. From the payment provider, you will be directed to the order confirmation page. If you have a discount code, please choose ‘Checkout Securely'.",
+        "quantity": 0
     },
     {
         "_id": "qwqhufa4z6fbfcbxA",
@@ -77,16 +95,19 @@
         "image": "https://i.ibb.co/LtgdBzn/sports1.jpg",
         "category": "sportsToy",
         "rating":3,
-        "price": 9
+        "price": 9,
+        "description": "All order details will be taken directly from your payment provider, please ensure you select the correct addresses before submitting your order. From the payment provider, you will be directed to the order confirmation page. If you have a discount code, please choose ‘Checkout Securely'.",
+        "quantity": 17
     },
     {
         "_id": "p4741dbsc48945",
         "name": "Car Toy",
-       
         "image": "https://i.ibb.co/bRC2qMm/car2.jpg",
         "category": "carToy",
         "rating":4,
-        "price": 13
+        "price": 13,
+        "description": "All order details will be taken directly from your payment provider, please ensure you select the correct addresses before submitting your order. From the payment provider, you will be directed to the order confirmation page. If you have a discount code, please choose ‘Checkout Securely'.",
+        "quantity": 10
     },
     {
         "_id": "pajfchudasge4+a5f",
@@ -94,7 +115,9 @@
         "image": "https://i.ibb.co/J2BJcw6/track2.jpg",
         "category": "trackToy",
         "rating":4,
-        "price": 13
+        "price": 13,
+        "description": "All order details will be taken directly from your payment provider, please ensure you select the correct addresses before submitting your order. From the payment provider, you will be directed to the order confirmation page. If you have a discount code, please choose ‘Checkout Securely'.",
+        "quantity": 15
     },
     {
         "_id": "qdccdzyuj47e8e",
@@ -102,7 +125,9 @@
         "image": "https://i.ibb.co/q7DRfpR/track1.jpg",
         "category": "trackToy",
         "rating":4,
-        "price": 12
+        "price": 12,
+        "description": "All order details will be taken directly from your payment provider, please ensure you select the correct addresses before submitting your order. From the payment provider, you will be directed to the order confirmation page. If you have a discount code, please choose ‘Checkout Securely'.",
+        "quantity": 10
     },
     {
         "_id": "cnsvcsjnwue846548",
@@ -110,7 +135,9 @@
         "image": "https://i.ibb.co/x5nYGfZ/car1.jpg",
         "category": "carToy",
         "rating":3,
-        "price": 9
+        "price": 9,
+        "description": "All order details will be taken directly from your payment provider, please ensure you select the correct addresses before submitting your order. From the payment provider, you will be directed to the order confirmation page. If you have a discount code, please choose ‘Checkout Securely'.",
+        "quantity": 7
     },
     {
         "_id": "sdbfdaa74c65aa",
@@ -118,7 +145,9 @@
         "image": "https://i.ibb.co/Z1xrhTg/police1.jpg",
         "category": "policeToy",
         "rating":5,
-        "price": 14
+        "price": 14,
+        "description": "All order details will be taken directly from your payment provider, please ensure you select the correct addresses before submitting your order. From the payment provider, you will be directed to the order confirmation page. If you have a discount code, please choose ‘Checkout Securely'.",
+        "quantity": 10
     },
     {
         "_id": "sdfgsset74f05c36eeb3",
@@ -126,7 +155,9 @@
         "image": "https://i.ibb.co/4mvG976/sport4.jpg",
         "category":"sportsToy",
         "rating":3,
-        "price": 9
+        "price": 9,
+        "description": "All order details will be taken directly from your payment provider, please ensure you select the correct addresses before submitting your order. From the payment provider, you will be directed to the order confirmation page. If you have a discount code, please choose ‘Checkout Securely'.",
+        "quantity": 14
     },
     {
         "_id": "gfybahaf4z",
@@ -134,7 +165,9 @@
         "image": "https://i.ibb.co/q7DRfpR/track1.jpg",
         "category": "trackToy",
         "rating":2,
-        "price": 5
+        "price": 5,
+        "description": "All order details will be taken directly from your payment provider, please ensure you select the correct addresses before submitting your order. From the payment provider, you will be directed to the order confirmation page. If you have a discount code, please choose ‘Checkout Securely'.",
+        "quantity": 10
     },
     {
         "_id": "642c155b2c4774f05c36eeb6",
@@ -142,7 +175,9 @@
         "image": "https://i.ibb.co/h8jt9JC/police2.jpg",
         "category": "policeToy",
         "rating":5,
-        "price": 14
+        "price": 14,
+        "description": "All order details will be taken directly from your payment provider, please ensure you select the correct addresses before submitting your order. From the payment provider, you will be directed to the order confirmation page. If you have a discount code, please choose ‘Checkout Securely'.",
+        "quantity": 11
     },
     {
         "_id": "fyhBqufu4c",
@@ -150,7 +185,9 @@
         "image": "https://i.ibb.co/C1jB8S1/car3.jpg",
         "category": "carToy",
         "rating":5,
-        "price": 15
+        "price": 15,
+        "description": "All order details will be taken directly from your payment provider, please ensure you select the correct addresses before submitting your order. From the payment provider, you will be directed to the order confirmation page. If you have a discount code, please choose ‘Checkout Securely'.",
+        "quantity": 12
     },
     {
         "_id": "642c155b2c4774f05c36ee7e",
@@ -158,6 +195,8 @@
         "image": "https://i.ibb.co/4mvG976/sport4.jpg",
         "category": "sportsToy",
         "rating":5,
-        "price": 20
+        "price": 20,
+        "description": "All order details will be taken directly from your payment provider, please ensure you select the correct addresses before submitting your order. From the payment provider, you will be directed to the order confirmation page. If you have a discount code, please choose ‘Checkout Securely'.",
+        "quantity": 10
     }
 ]

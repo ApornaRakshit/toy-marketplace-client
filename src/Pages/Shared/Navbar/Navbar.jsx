@@ -44,7 +44,13 @@ const Navbar = () => {
                 </div>
                 {
                     user ? <>
-                        <button onClick={handleLogOut} className="btn btn-success text-white">LogOut</button>
+                        <button onClick={handleLogOut} className="w-25 h-25 ">
+                            <div className="avatar online placeholder">
+                                <div className="bg-neutral-focus text-neutral-content rounded-full w-12">
+                                    <span className="text-xl"></span>
+                                </div>
+                            </div>
+                        </button>
                     </> : <>
                         <li><Link to="/login">Login</Link></li>
                     </>
@@ -55,3 +61,10 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+<div className="avatar online placeholder">
+    <div className="bg-neutral-focus text-neutral-content rounded-full w-12">
+        <span className="text-xl"></span>
+    </div>
+</div>

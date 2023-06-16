@@ -15,8 +15,8 @@ const SubCategory = () => {
     return (
         <div>
             <h2 className='text-4xl font-bold text-accent text-center mt-16'>Pick your perfect gift from category</h2>
-            <Tabs className="text-center mt-5"  defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
-                <TabList className="font-semibold text-xl mb-5 text-teal-700">
+            <Tabs className=" mt-5"  defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
+                <TabList className="font-semibold text-center text-xl mb-5 text-teal-700">
                     <Tab>Car Toy</Tab>
                     <Tab>Track Toy</Tab>
                     <Tab>Police Toy</Tab>
