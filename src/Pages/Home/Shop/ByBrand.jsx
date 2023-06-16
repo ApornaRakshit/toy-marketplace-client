@@ -10,10 +10,10 @@ const ByBrand = () => {
           <div className='mx-10 my-16'>
             <span className='text-3xl text-gray-400 italic bg-white p-6 ms-10 font-bold'>by brand</span>
             <div className='grid place-items-center justify-items-center grid-cols-2 md:grid-cols-4 lg:grid-cols-4 py-6 text-center underline border-dashed border-2 rounded-3xl border-gray-300'>
-            <Link to="https://shop.mattel.com/pages/fisher-price"><img className='w-56' src={b1} alt="" /><p className='mt-4'>Fisher-price</p></Link>
-            <Link to="https://funko.com/"><img className='w-60' src={b2} alt="" /><p className='-mt-6 pb-8'>Funko</p></Link>
-            <Link to="https://shop.mattel.com/pages/hot-wheels"><img className='w-60 h-36' src={b3} alt="" /><p>Hot-Wheels</p></Link>
-            <Link to="https://www.lego.com/"><img className='w-36' src={b4} alt="" /><p>LEGO-store</p></Link>
+            <Link to="/"><img className='w-56' src={b1} alt="" /><p className='mt-4'>Fisher-price</p></Link>
+            <Link to="/"><img className='w-60' src={b2} alt="" /><p className='-mt-6 pb-8'>Funko</p></Link>
+            <Link to="/"><img className='w-60 h-36' src={b3} alt="" /><p>Hot-Wheels</p></Link>
+            <Link to="/"><img className='w-36' src={b4} alt="" /><p>LEGO-store</p></Link>
             </div>
           </div>
         
