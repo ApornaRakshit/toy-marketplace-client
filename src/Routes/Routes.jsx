@@ -11,6 +11,7 @@ import MyToys from "../Pages/MyToys/MyToys";
 import AddToy from "../Pages/AddToys/AddToy";
 import PrivateRoutes from "./PrivateRoutes";
 import UpdatedToy from "../Pages/MyToys/UpdatedToy";
+import NotFound from "../Pages/NotFound/NotFound";
 
 export const router = createBrowserRouter([
     {
@@ -34,6 +35,10 @@ export const router = createBrowserRouter([
             element: <Login></Login>
         },
         {
+            path:'notFound',
+            element:<NotFound></NotFound>
+        },
+        {
             path: 'registration',
             element: <Registration></Registration>
         },
@@ -44,12 +49,12 @@ export const router = createBrowserRouter([
         {
             path: 'myToys',
             element:<PrivateRoutes><MyToys></MyToys></PrivateRoutes> ,
-            loader:() =>fetch('http://localhost:5000/toy')
+            loader:() =>fetch('https://toy-marketplace-server-six-lake.vercel.app/toy')
         },
         {
             path: 'updatedToy/:id',
             element: <PrivateRoutes><UpdatedToy></UpdatedToy></PrivateRoutes>,
-            loader: ({params}) => fetch(`http://localhost:5000/toy/${params.id}`)
+            loader: ({params}) => fetch(`https://toy-marketplace-server-six-lake.vercel.app/toy/${params.id}`)
         }
       ]
     },

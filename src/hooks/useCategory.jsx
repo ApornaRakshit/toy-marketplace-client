@@ -4,7 +4,7 @@ const useCategory = () => {
     const [category, setCategory] = useState([])
     const [loading, setLoading] =useState(true)
     useEffect(()=>{
-        fetch('http://localhost:5000/category')
+        fetch('https://toy-marketplace-server-six-lake.vercel.app/category')
         .then(res=> res.json())
         .then(data => {
             setCategory(data)

@@ -16,7 +16,7 @@ const CategoryItem = ({ item }) => {
         console.log(item)
         if (user && user.email) {
             const cartItem = {toyCategoryId: _id, name, price, email: user.email, sellerName:user.name, quantity, description, rating}
-            fetch('http://localhost:5000/carts', {
+            fetch('https://toy-marketplace-server-six-lake.vercel.app/carts', {
                 method: 'POST',
                 headers:{
                     'content-type': 'application/json'

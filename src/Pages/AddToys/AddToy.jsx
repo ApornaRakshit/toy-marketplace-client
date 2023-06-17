@@ -20,7 +20,7 @@ const AddToy = () => {
         console.log(newToy)
 
 
-        fetch('http://localhost:5000/toy',{
+        fetch('https://toy-marketplace-server-six-lake.vercel.app/toy',{
             method: 'POST',
             headers:{
                 'content-type': 'application/json'
