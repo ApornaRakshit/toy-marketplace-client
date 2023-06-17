@@ -64,7 +64,7 @@ export const router = createBrowserRouter([
             loader: ({params}) => fetch(`https://toy-marketplace-server-six-lake.vercel.app/toy/${params.id}`)
         },
         {
-            path:'cart/:id',
+            path:'cart/:_id',
             element:<PrivateRoutes><ToyDetail></ToyDetail></PrivateRoutes>
         }
       ]
