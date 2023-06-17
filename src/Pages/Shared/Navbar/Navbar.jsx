@@ -23,7 +23,7 @@ const Navbar = () => {
         <li><Link to="/addToys">Add a toy</Link></li>
         <li>
             <Link to="/">
-                <button>
+                <button className='flex'>
                     <FaShoppingCart></FaShoppingCart>
                     <div className="badge badge-secondary">+{cart?.length || 0}</div>
                 </button>
@@ -35,7 +35,7 @@ const Navbar = () => {
     </React.Fragment>
     return (
         <>
-            <div className="navbar fixed z-10 bg-accent text-white text-center">
+            <div className="navbar bg-accent text-white text-center">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-link lg:hidden">
@@ -54,7 +54,7 @@ const Navbar = () => {
                 </div>
                 {
                     user ? <>
-                        <button onClick={handleLogOut} className="w-25 h-25 ">Logout</button>
+                        <button onClick={handleLogOut} className="btn btn-success btn-sm w-15 h-15 text-white">Logout</button>
                     </> : <>
                         <li><Link to="/login">Login</Link></li>
                     </>
@@ -65,10 +65,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
-<div className="avatar online placeholder">
-    <div className="bg-neutral-focus text-neutral-content rounded-full w-12">
-        <span className="text-xl"></span>
-    </div>
-</div>
