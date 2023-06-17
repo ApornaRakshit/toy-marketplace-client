@@ -12,6 +12,9 @@ import AddToy from "../Pages/AddToys/AddToy";
 import PrivateRoutes from "./PrivateRoutes";
 import UpdatedToy from "../Pages/MyToys/UpdatedToy";
 import NotFound from "../Pages/NotFound/NotFound";
+import AllToys from "../Pages/AllToys/AllToys";
+import CategoryItem from "../Pages/Shared/CategoryItem/CategoryItem";
+import ToyDetail from "../Pages/Shared/ToyDetail/ToyDetail";
 
 export const router = createBrowserRouter([
     {
@@ -47,6 +50,10 @@ export const router = createBrowserRouter([
             element: <PrivateRoutes><AddToy></AddToy></PrivateRoutes>
         },
         {
+            path: 'allToys',
+            element: <AllToys></AllToys>
+        },
+        {
             path: 'myToys',
             element:<PrivateRoutes><MyToys></MyToys></PrivateRoutes> ,
             loader:() =>fetch('https://toy-marketplace-server-six-lake.vercel.app/toy')
@@ -55,6 +62,10 @@ export const router = createBrowserRouter([
             path: 'updatedToy/:id',
             element: <PrivateRoutes><UpdatedToy></UpdatedToy></PrivateRoutes>,
             loader: ({params}) => fetch(`https://toy-marketplace-server-six-lake.vercel.app/toy/${params.id}`)
+        },
+        {
+            path:'cart/:id',
+            element:<PrivateRoutes><ToyDetail></ToyDetail></PrivateRoutes>
         }
       ]
     },
