@@ -1,17 +1,46 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Swal from 'sweetalert2';
 
 const ToyTable = ({ toy }) => {
 
-    const { name, price, sellerName, quantity, category, description, photo, rating } = toy;
+    const { _id, name, price, sellerName, quantity, category, description, photo, rating } = toy;
+    const handleDelete = _id => {
+        console.log(_id)
+        Swal.fire({
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes, delete it!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+
+
+                fetch(`http://localhost:5000/toy/${_id}`,{
+                    method:'DELETE'
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        console.log(data)
+                        if (data.deletedCount > 0) {
+                            Swal.fire(
+                            'Deleted!',
+                            'Your file has been deleted.',
+                            'success'
+                        )
+                }
+                    })
+            }
+        })
+    }
 
     return (
         <>
-
             <div className="overflow-x-auto">
-            
                 <table className="table">
-                   
-                    
                     <tbody>
                         {/* row 1 */}
                         <tr>
@@ -34,18 +63,19 @@ const ToyTable = ({ toy }) => {
                                 </div>
                             </td>
                             <td>
-                               Category: {category}
+                                Category: {category}
                             </td>
                             <td>Rating: {rating}</td>
-                            <th>
-                                <button className="btn btn-ghost btn-xs">Update</button>
-                                <button className="btn btn-ghost btn-xs">Delete</button>
+                            <th className='gap-2'>
+                                <Link to={`/updatedToy/${_id}`}><button className="btn btn-ghost btn-xs bg-green-500">Update</button></Link>
+                                <button
+                                    onClick={() => handleDelete(_id)}
+                                    className="btn btn-ghost btn-xs bg-red-500">Delete</button>
                             </th>
                         </tr>
                     </tbody>
                 </table>
             </div>
-
         </>
     );
 };
